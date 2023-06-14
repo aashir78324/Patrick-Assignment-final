@@ -1,0 +1,43 @@
+.show-picture-1 img {
+position: absolute;
+width: 500px;
+height: 400px;
+left: 50px;
+top: 250px;
+}
+
+.show-picture-2 img {
+    position: absolute;
+    width: 500px;
+    height: 400px;
+    left: 657px;
+    top: 250px;
+    
+}
+
+.show-picture-3 img {
+    position: absolute;
+    width: 500px;
+    height: 400px;
+    left: 1266px;
+    top: 250px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.goSopping {
+box-sizing: border-box;
+
+position: absolute;
+width: 637px;
+height: 120px;
+left: 628px;
+top: 800px;
+
+background: #FFFFFF;
+border: 1px solid #000000;
+border-radius: 25px;
+font-size: xx-large;
+}
