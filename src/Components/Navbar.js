@@ -1,6 +1,6 @@
 import React from 'react'
 import Logo from "../assets/Logo.png"
-import { Link } from "react-router-dom"
+import { NavLink } from "react-router-dom"
 import "../Styles/Navbar.css"
 
 function Navbar() {
@@ -10,14 +10,14 @@ function Navbar() {
         </div>
         <img src={Logo} />
         <div className='rightside'>
-            <Link to="/"> Home </Link>
-            <Link to="mainpage"> MAIN </Link>
-            <Link to="saleitems"> SALE </Link>
-            <Link to="man"> MEN </Link>
-            <Link to="women"> WOMEN </Link>
-            <Link to="children"> CHILDREN </Link>
-            <Link to="sport"> SPORT </Link>
-            <Link to="contact"> CONTACT </Link>
+            <NavLink to="/"> Home </NavLink>
+            <NavLink to="mainpage"> MAIN </NavLink>
+            <NavLink to="saleitems"> SALE </NavLink>
+            <NavLink to="man"> MEN </NavLink>
+            <NavLink to="women"> WOMEN </NavLink>
+            <NavLink to="children"> CHILDREN </NavLink>
+            <NavLink to="sport"> SPORT </NavLink>
+            <NavLink to="contact"> CONTACT </NavLink>
         </div>
 
     </div>
