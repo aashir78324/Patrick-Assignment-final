@@ -19,6 +19,7 @@ function Navbar() {
             <NavLink to="sport"> SPORT </NavLink>
             <NavLink to="contact"> CONTACT </NavLink>
         </div>
+        <div> Hello World</div>
 
     </div>
   )
