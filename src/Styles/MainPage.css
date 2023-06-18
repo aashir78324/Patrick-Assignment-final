@@ -1,0 +1,93 @@
+.womenButton{
+box-sizing: border-box;
+
+position: absolute;
+width: 244px;
+height: 86px;
+left: 194px;
+top: 850px;
+
+background: rgba(255, 255, 255, 0.56);
+border: 1px solid #000000;
+border-radius: 35px; 
+cursor: pointer;
+}
+
+.manButton{
+position: absolute;
+width: 244px;
+height: 89px;
+left: 581px;
+top: 850px;
+
+background: rgba(255, 255, 255, 0.56);
+border: 1px solid #000000;
+border-radius: 35px; 
+cursor: pointer;
+}
+
+.kidsButton{
+box-sizing: border-box;
+
+position: absolute;
+width: 244px;
+height: 86px;
+left: 959px;
+top: 850px;
+
+background: rgba(255, 255, 255, 0.56);
+border: 1px solid #000000;
+border-radius: 35px;
+cursor: pointer;
+}
+
+.sportButton{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 244px;
+    height: 86px;
+    left: 1315px;
+    top: 850px;
+    
+    background: rgba(255, 255, 255, 0.56);
+    border: 1px solid #000000;
+    border-radius: 35px;
+    cursor: pointer;
+}
+
+.MainPageWomen img{
+    position: absolute;
+    width: 400px;
+    height: 637px;
+    left: 80px;
+    top: 150px;
+    outline-style:inset   
+}
+
+.MainPageMan img{
+position: absolute;
+width: 350px;
+height: 637px;
+left: 546px;
+top: 150px;
+outline-style: inset;
+}
+
+.MainPageKids img{
+    position: absolute;
+    width: 300px;
+    height: 637px;
+    left: 950px;
+    top: 150px;
+    outline-style: inset;
+}
+
+.MainPageSport img{
+    position: absolute;
+    width: 311px;
+    height: 637px;
+    left: 1315px;
+    top: 150px;
+    outline-style: inset;
+}

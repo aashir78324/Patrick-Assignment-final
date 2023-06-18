@@ -1,11 +1,11 @@
 import React from 'react'
 
-function AboutPage() {
+function KidsPage() {
   return (
     <div>
-      
+      dsadas
     </div>
   )
 }
 
-export default AboutPage
+export default KidsPage

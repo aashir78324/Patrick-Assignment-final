@@ -4,6 +4,7 @@ width: 500px;
 height: 400px;
 left: 50px;
 top: 250px;
+outline-style: auto;
 }
 
 .show-picture-2 img {
@@ -12,7 +13,7 @@ top: 250px;
     height: 400px;
     left: 657px;
     top: 250px;
-    
+    outline:auto
 }
 
 .show-picture-3 img {
@@ -21,6 +22,7 @@ top: 250px;
     height: 400px;
     left: 1266px;
     top: 250px;
+    outline:auto
 }
 
 h1 {
@@ -40,4 +42,5 @@ background: #FFFFFF;
 border: 1px solid #000000;
 border-radius: 25px;
 font-size: xx-large;
+cursor: pointer;
 }
