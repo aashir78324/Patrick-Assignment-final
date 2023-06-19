@@ -4,7 +4,7 @@ box-sizing: border-box;
 position: absolute;
 width: 244px;
 height: 86px;
-left: 194px;
+left: 100px;
 top: 850px;
 
 background: rgba(255, 255, 255, 0.56);
@@ -17,7 +17,7 @@ cursor: pointer;
 position: absolute;
 width: 244px;
 height: 89px;
-left: 581px;
+left: 500px;
 top: 850px;
 
 background: rgba(255, 255, 255, 0.56);
@@ -32,7 +32,7 @@ box-sizing: border-box;
 position: absolute;
 width: 244px;
 height: 86px;
-left: 959px;
+left: 900px;
 top: 850px;
 
 background: rgba(255, 255, 255, 0.56);
@@ -47,7 +47,7 @@ cursor: pointer;
     position: absolute;
     width: 244px;
     height: 86px;
-    left: 1315px;
+    left: 1275px;
     top: 850px;
     
     background: rgba(255, 255, 255, 0.56);
@@ -56,11 +56,34 @@ cursor: pointer;
     cursor: pointer;
 }
 
+.saleButton{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 244px;
+    height: 86px;
+    left: 1565px;
+    top: 870px;
+    
+    background: rgba(255, 255, 255, 0.56);
+    border: 1px solid #000000;
+    border-radius: 35px;
+    cursor: pointer;
+}
+
+.ArrowRight img{
+    position: absolute;
+    width: 100px;
+    height: 80px;
+    left: 1810px;
+    top: 875px;
+}
+
 .MainPageWomen img{
     position: absolute;
     width: 400px;
     height: 637px;
-    left: 80px;
+    left: 25px;
     top: 150px;
     outline-style:inset   
 }
@@ -69,7 +92,7 @@ cursor: pointer;
 position: absolute;
 width: 350px;
 height: 637px;
-left: 546px;
+left: 500px;
 top: 150px;
 outline-style: inset;
 }
@@ -78,7 +101,7 @@ outline-style: inset;
     position: absolute;
     width: 300px;
     height: 637px;
-    left: 950px;
+    left: 900px;
     top: 150px;
     outline-style: inset;
 }
@@ -87,7 +110,8 @@ outline-style: inset;
     position: absolute;
     width: 311px;
     height: 637px;
-    left: 1315px;
+    left: 1240px;
     top: 150px;
     outline-style: inset;
 }
+

@@ -27,6 +27,7 @@ function App() {
         <Route path='/kids' exact Component={kids} />
         <Route path='/sport' exact Component={Sport} />
         <Route path='/contact' exact Component={ContactPage} />
+
         </Routes>
     </Router>
  </div>

@@ -5,8 +5,7 @@ import MainWomenPicture from "../assets/MainPageWomen.webp"
 import MainManPicture from "../assets/MainPageMan.webp"
 import MainKidsPicture from "../assets/MainPageKids.webp"
 import MainSportPicture from "../assets/MainPageSport.png"
-
-
+import  ArrowRight  from "../assets/arrowRight.jpg"
 function MainPage() {
   const Navigate = useNavigate()
   return (
@@ -42,6 +41,14 @@ function MainPage() {
         Sport
       </button>
 
+      <button className='saleButton'
+      onClick={() => {
+        Navigate("/saleitems")
+      }}
+      >
+        Sale 
+      </button>
+
     <div className='MainPageWomen'>
       <img src={MainWomenPicture} />
     </div>
@@ -56,6 +63,10 @@ function MainPage() {
 
     <div className='MainPageSport'>
       <img src={MainSportPicture} />
+    </div>
+
+    <div className='ArrowRight'>
+      <img src={ArrowRight} />
     </div>
 
     </div>
