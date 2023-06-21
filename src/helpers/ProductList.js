@@ -1,41 +1,39 @@
-import EmeraldImage from "../assets/EmeraldShoes.webp"
-import OmegaImage from "../assets/OmegaShoes.webp"
-import AlphaImage from "../assets/AlphaShoes.png"
-import Image1 from "../assets/HomePicture1.webp"
-import Image2 from "../assets/HomepPicture2.png"
-import Image3 from "../assets/HomePicture3.webp"
-import home1 from "../assets/home1.jpg"
-import home2 from "../assets/home2.jpg"
+import wImage1 from "../assets/wImage1.jpg"
+import wImage2 from "../assets/wImage2.jpg"
+import wImage3 from "../assets/wImage3.jpg"
+import wImage4 from "../assets/wImage4.jpg"
+import wImage5 from "../assets/wImage5.jpg"
+import wImage6 from "../assets/wImage6.jpg"
 
 export const ProductList = [
     {
         name: "Emerald Selection",
-        image: EmeraldImage,
+        image: wImage1,
         price: 169.99
     },
     {
         name: "Omega Selection",
-        image: OmegaImage,
+        image: wImage2,
         price: 139.99
     },
     {
         name:"Alpha Selection",
-        image: AlphaImage,
+        image: wImage3,
         price:139.99
     },
     {
         name:"Image1",
-        image: Image1,
+        image: wImage4,
         price:39.99
     },
     {
         name:"Image2",
-        image: Image2,
+        image: wImage5,
         price:29.99
     },
     {
         name:"Image3",
-        image: Image3,
+        image: wImage6,
         price: 19.99
     }
  ]

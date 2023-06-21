@@ -2,6 +2,7 @@ import React from 'react'
 import {ProductList} from "../helpers/ProductList"
 import ProductItem from "..//Components/ProductItem"
 import "../Styles/WomenPage.css"
+import "../assets/BackgroundImage.jpg"
 
 function WomenPage() {
   return (
@@ -17,4 +18,11 @@ function WomenPage() {
   )
 }
 
+const BackgroundImage = () => {
+  return (
+    <div className='page-container'>
+      {BackgroundImage}
+    </div>
+  )
+}
 export default WomenPage
