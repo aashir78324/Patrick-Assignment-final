@@ -5,19 +5,14 @@ import "../Styles/WomenPage.css"
 
 function WomenPage() {
   return (
-    <div className='Products'>
-      <h1 className='productsTitle'>Women Selection</h1>
-      <div className='productList'>
-        {ProductList.map((productItem,key) => {
-        return(
-         <ProductItem
-         key={key}
-          image={productItem.image} 
-          name={productItem.name} 
-          price={productItem.price} 
-          />
-        );
-      })}</div>
+    <div className='Products'> 
+      <div className='productTitle'>
+      <h1>Women Selection</h1>
+      </div>
+      <div className='Item'>{ProductList.map((Products) => (
+        <ProductItem data={Products}/>
+      ))}</div>
+
     </div>
   )
 }

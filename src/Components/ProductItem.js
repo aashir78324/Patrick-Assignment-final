@@ -1,14 +1,18 @@
 import React from 'react'
 
-function ProductItem({image, name, price }) {
-  return (
-    <div className='productItem'>
-        <div style={{ backgroundImage: `url(£(image))` }}></div>
-        <h1>{name}</h1>
-        <h5>£{price}</h5>
-      
+export const ProductItem = (props) => {
+  const {name, image, price} = props.data
+  return <div className='product'>
+    <div className='description'>
+      <img src={image}/>
+      <p>
+        <b>{name}</b>
+      </p>
+      <p>
+        £{price}
+      </p>
     </div>
-  )
+  </div>
 }
 
 export default ProductItem
