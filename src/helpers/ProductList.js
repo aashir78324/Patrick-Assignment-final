@@ -4,6 +4,8 @@ import AlphaImage from "../assets/AlphaShoes.png"
 import Image1 from "../assets/HomePicture1.webp"
 import Image2 from "../assets/HomepPicture2.png"
 import Image3 from "../assets/HomePicture3.webp"
+import home1 from "../assets/home1.jpg"
+import home2 from "../assets/home2.jpg"
 
 export const ProductList = [
     {

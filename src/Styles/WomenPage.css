@@ -2,6 +2,12 @@
 .description img {
     max-width: 100%;
     width: 250px;
-    direction: flex;
-    flex-direction: row;
 }
+ .Item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+
+ }
