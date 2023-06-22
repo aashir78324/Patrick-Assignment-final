@@ -1,0 +1,46 @@
+.originalPrice{
+    text-decoration: line-through;
+    color: red;
+}
+
+.discountedPrice{
+    color: rgb(0, 206, 0)
+}
+
+
+.saleDescription img {
+    max-width: 100%;
+    outline-style: auto;
+    cursor: pointer;
+}
+
+ .ItemSale {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+ }
+
+ .saleTitle {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 40px;
+  }
+  .ItemSale {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+  }
+
+.backButtonSale{
+    width: 200px;
+    height: 100px;
+    border-radius: 35px;
+    border: 1px solid #000;
+    background: rgba(255, 255, 255, 0.56);
+    cursor: pointer;
+}
+
