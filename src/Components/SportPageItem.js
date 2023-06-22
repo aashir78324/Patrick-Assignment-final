@@ -3,7 +3,7 @@ import React from "react"
 export const SportPageItem = (props) => {
     const {name, image, price} = props.data
     return <div className="Man">
-        <div className="manDescription">
+        <div className="sportDescription">
             <img  src={image} />
             <p>
                 <b>{name}</b>
