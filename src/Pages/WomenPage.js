@@ -1,6 +1,6 @@
 import React from 'react'
-import {ProductList} from "../helpers/ProductList"
-import ProductItem from "..//Components/ProductItem"
+import {ProductList} from "../helpers/WomenPageList"
+import ProductItem from "../Components/ProductItem"
 import "../Styles/WomenPage.css"
 import "../assets/BackgroundImage.jpg"
 
