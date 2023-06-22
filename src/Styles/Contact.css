@@ -1,0 +1,41 @@
+.greyBox{
+    width: 1533px;
+    height: 111px;
+    flex-shrink: 0;
+    background: #E4E4E4;
+    margin:auto;
+}
+
+.blackBox{
+    width: 1531px;
+    height: 626px;
+    flex-shrink: 0;
+    background: #000;
+    margin: auto;
+}
+
+.instagramIcon{
+position: relative;
+left: 675px;
+top: 100px;
+}
+
+.emailIcon{
+    position: relative;
+    left: 700px;
+    top: 100px;
+    }
+
+.blackBox p{
+    color: white;
+    display: flex;
+width: 1446px;
+height: 157px;
+flex-direction: column;
+flex-shrink: 0;
+color: #9E9E9E;
+font-size: 36px;
+font-family: Inika;
+position: relative;
+top: 100px;
+}

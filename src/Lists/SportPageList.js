@@ -6,32 +6,32 @@ import spImage5 from "../assets/spImage5.jpg"
 import spImage6 from "../assets/spImage6.jpg"
 export const sportList = [
     {
-        name: "Emerald Selection",
+        name: "Dark Coal",
         image: spImage1,
         price: 169.99
     },
     {
-        name: "Omega Selection",
+        name: "Shiny emerald",
         image: spImage2,
         price: 139.99
     },
     {
-        name:"Alpha Selection",
+        name:"Moon White",
         image: spImage3,
         price:139.99
     },
     {
-        name:"Image1",
+        name:"Neon Cherry",
         image: spImage4,
         price:39.99
     },
     {
-        name:"Image2",
+        name:"Orange Dark ",
         image: spImage5,
         price:29.99
     },
     {
-        name:"Image3",
+        name:"Shiny Sunset",
         image: spImage6,
         price: 19.99
     }

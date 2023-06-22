@@ -23,6 +23,7 @@ function Navbar() {
             <NavLink to="sport"> SPORT </NavLink>
             <NavLink to="contact"> CONTACT </NavLink>
         </div>
+        <h1 className='contactInfo'>Contact Info: +44 7473678493</h1>
         </div>
   )
 }
