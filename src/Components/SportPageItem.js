@@ -1,18 +1,18 @@
-import React from 'react'
+import React from "react"
 
-export const SportPage = (props) => {
-  const {name, image, price} = props.data
-  return <div className='product'>
-    <div className='sportDescription'>
-      <img src={image}/>
-      <p>
-        <b>{name}</b>
-      </p>
-      <p>
-        £{price}
-      </p>
+export const SportPageItem = (props) => {
+    const {name, image, price} = props.data
+    return <div className="Man">
+        <div className="manDescription">
+            <img  src={image} />
+            <p>
+                <b>{name}</b>
+            </p>
+            <p>
+                <b>£{price}</b>
+            </p>
+        </div>
     </div>
-  </div>
 }
 
-export default SportPage
+export default SportPageItem;
