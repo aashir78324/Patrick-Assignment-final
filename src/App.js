@@ -6,7 +6,7 @@ import SaleItems from "./Pages/SaleItems";
 import MEN from "./Pages/ManPage";
 import WOMEN from "./Pages/WomenPage";
 import kids from "./Pages/KidsPage"
-import Sport from "./Pages/SportSectionPage"
+import Sport from "./Pages/SportPage"
 import ContactPage from "./Pages/Contact"
 import {BrowserRouter as Router, Route, Routes} from "react-router-dom"
 
