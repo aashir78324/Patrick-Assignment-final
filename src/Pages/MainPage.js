@@ -4,7 +4,7 @@ import "../Styles/MainPage.css"
 import MainWomenPicture from "../assets/MainPageWomen.webp"
 import MainManPicture from "../assets/MainPageMan.webp"
 import MainKidsPicture from "../assets/MainPageKids.webp"
-import MainSportPicture from "../assets/MainPageSport.png"
+import MainSportPicture from "../assets/MainPageSport.webp"
 import  ArrowRight  from "../assets/arrowRight.jpg"
 function MainPage() {
   const Navigate = useNavigate()
@@ -15,14 +15,14 @@ function MainPage() {
         Navigate("/women")
       }}
       >
-        Women
+        <p className='mainPageText'>Women</p>
       </button>
 
       <button className='manButton'
       onClick={() => {
         Navigate("/man")
       }}>
-        Men
+        <p className='mainPageText'>Men</p>
       </button>
       
       <button className='kidsButton'
@@ -30,7 +30,7 @@ function MainPage() {
         Navigate("/kids")
       }}
       >
-        Kids
+        <p className='mainPageText'>Kids</p>
       </button>
 
       <button className='sportButton'
@@ -38,7 +38,7 @@ function MainPage() {
         Navigate("/sport")
       }}
       >
-        Sport
+        <p className='mainPageText'>Sport</p>
       </button>
 
       <button className='saleButton'
@@ -46,7 +46,7 @@ function MainPage() {
         Navigate("/saleitems")
       }}
       >
-        Sale 
+        <p className='mainPageText'>Sale</p>
       </button>
 
     <div className='MainPageWomen'>
